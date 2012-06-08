@@ -25,6 +25,6 @@ LOCAL_C_INCLUDES += \
 	system/media/audio_effects/include
 LOCAL_SHARED_LIBRARIES := liblog libcutils libtinyalsa libaudioutils libdl
 LOCAL_MODULE_TAGS := optional
-
+LOCAL_CFLAGS := -fno-strict-aliasing
 include $(BUILD_SHARED_LIBRARY)
 
