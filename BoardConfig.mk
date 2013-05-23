@@ -36,7 +36,9 @@ TARGET_NO_BOOTLOADER := true
 
 BOARD_KERNEL_BASE := 0x80000000
 # BOARD_KERNEL_CMDLINE :=
-TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
+#TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/tuna
+TARGET_KERNEL_CONFIG := evervolv_tuna_defconfig
 
 TARGET_NO_RADIOIMAGE := true
 TARGET_BOARD_PLATFORM := omap4
